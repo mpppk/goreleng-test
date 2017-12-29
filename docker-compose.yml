@@ -6,6 +6,7 @@ services:
       - $PWD:/go/src/github.com/mpppk/goreleng-test
     environment:
       GITHUB_TOKEN: $GITHUB_TOKEN
+      REPO_OWNER: mpppk
     working_dir: /go/src/github.com/mpppk/goreleng-test
     command: gored build
   build-docker:
