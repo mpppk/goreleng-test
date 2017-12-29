@@ -4,6 +4,8 @@ services:
     image: mpppk/gored
     volumes:
       - $PWD:/go/src/github.com/mpppk/goreleng-test
+    environment:
+      GITHUB_TOKEN: $GITHUB_TOKEN
     working_dir: /go/src/github.com/mpppk/goreleng-test
     command: gored build
   build-docker:
