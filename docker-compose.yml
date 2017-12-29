@@ -3,8 +3,8 @@ services:
   build: &build
     image: mpppk/gored
     volumes:
-      - $PWD:/go/github.com/mpppk/goreleng-test
-    working_dir: /go/github.com/mpppk/goreleng-test
+      - $PWD:/go/src/github.com/mpppk/goreleng-test
+    working_dir: /go/src/github.com/mpppk/goreleng-test
     command: gored build
   build-docker:
     <<: *build
