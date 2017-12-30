@@ -15,4 +15,4 @@ services:
   release:
     <<: *build
 #    command: gored release
-    command: sh /scripts/release.sh
+    command: make release -f /scripts/Makefile
