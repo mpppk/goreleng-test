@@ -15,4 +15,4 @@ services:
   release:
     <<: *build
 #    command: sh /scripts/release.sh
-    command: make release -f /scripts/Makefile
+    command: make release -f /Makefile
