@@ -12,6 +12,7 @@ jobs:
       - image: mpppk/gored
     working_directory: /go/src/github.com/mpppk/goreleng-test
     steps:
+      - checkout
       - run: make release
 workflows:
   version: 2
