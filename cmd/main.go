@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const version = "0.0.509"
+const version = "0.0.510"
 
 func main() {
 	fmt.Println(version)
