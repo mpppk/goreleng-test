@@ -2,8 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: mpppk/gored
+#      - image: circleci/golang:1.9.2
+      - image: mpppk/gored2
     working_directory: /go/src/github.com/mpppk/goreleng-test
     steps:
       - checkout
-      - run: make test
+      - run: make release
