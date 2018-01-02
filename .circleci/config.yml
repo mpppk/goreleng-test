@@ -2,14 +2,14 @@ version: 2
 jobs:
   build:
     docker:
-      - image: mpppk/gored2
+      - image: mpppk/gored
     working_directory: /go/src/github.com/mpppk/goreleng-test
     steps:
       - checkout
       - run: make test
   release:
     docker:
-      - image: mpppk/gored2
+      - image: mpppk/gored
     working_directory: /go/src/github.com/mpppk/goreleng-test
     steps:
       - run: make release
