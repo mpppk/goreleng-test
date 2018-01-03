@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.811](https://github.com/mpppk/goreleng-test/compare/0.0.810...v0.0.811) (2018-01-03)
+
+
 ## [v0.0.810](https://github.com/mpppk/goreleng-test/compare/0.0.809...v0.0.810) (2018-01-03)
 
 
