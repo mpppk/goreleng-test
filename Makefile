@@ -35,7 +35,7 @@ bump-and-commit: deps test
 	gobump patch -w $(BUILD_PATH)
 	ghch -w -N v`gobump show -r $(BUILD_PATH)`
 	git add CHANGELOG.md
-	git commit -am "Checking in changes prior to tagging of version v`gobump show -r $(BUILD_PATH)`"
+	git commit -am "Checking in changes prior to tagging of version v`gobump show -r $(BUILD_PATH)` [skip ci]"
 	git tag `gobump show -r $(BUILD_PATH)`
 	git push "https://$(GITHUB_TOKEN)@github.com/$(REPO_OWNER)/$(REPO_NAME)" HEAD:master
 
