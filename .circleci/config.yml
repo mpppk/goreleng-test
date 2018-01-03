@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  build: &build
     docker:
       - image: mpppk/gored
     working_directory: /go/src/github.com/mpppk/goreleng-test
@@ -8,11 +8,10 @@ jobs:
       - checkout
       - run: make test
   release:
-    docker:
-      - image: mpppk/gored
-    working_directory: /go/src/github.com/mpppk/goreleng-test
+    <<: *build
     steps:
       - checkout
+      - run: make bump-and-commit
       - run: make release
 workflows:
   version: 2
