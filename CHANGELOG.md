@@ -1,0 +1,6 @@
+# Changelog
+
+## [v0.0.807](https://github.com/mpppk/goreleng-test/compare/0.0.806...v0.0.807) (2018-01-03)
+
+* Update Makefile [#2](https://github.com/mpppk/goreleng-test/pull/2) ([mpppk](https://github.com/mpppk))
+* Update circleci setting [#1](https://github.com/mpppk/goreleng-test/pull/1) ([mpppk](https://github.com/mpppk))
