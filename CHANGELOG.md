@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.808](https://github.com/mpppk/goreleng-test/compare/0.0.807...v0.0.808) (2018-01-03)
+
+
 ## [v0.0.807](https://github.com/mpppk/goreleng-test/compare/0.0.806...v0.0.807) (2018-01-03)
 
 * Update Makefile [#2](https://github.com/mpppk/goreleng-test/pull/2) ([mpppk](https://github.com/mpppk))
