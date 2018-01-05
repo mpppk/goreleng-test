@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.1.2](https://github.com/mpppk/goreleng-test/compare/0.1.1...v0.1.2) (2018-01-05)
+
+* Awesome changes [#5](https://github.com/mpppk/goreleng-test/pull/5) ([mpppk](https://github.com/mpppk))
+
 ## [v0.1.1](https://github.com/mpppk/goreleng-test/compare/0.0.812...v0.1.1) (2018-01-05)
 
 * v0.1.0 [#4](https://github.com/mpppk/goreleng-test/pull/4) ([mpppk](https://github.com/mpppk))
