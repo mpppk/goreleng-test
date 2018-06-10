@@ -29,7 +29,7 @@ test: deps
 	go test ./...
 
 coverage: deps
-	go test -race -coverprofile=coverage.txt -covermode=atomic ./etc
+	go test -race -coverprofile=coverage.txt -covermode=atomic ./...
 
 codecov: deps coverage
 	bash <(curl -s https://codecov.io/bash)
