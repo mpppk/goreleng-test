@@ -6,12 +6,26 @@ services:
       - $PWD:/go/src/github.com/mpppk/goreleng-test
     environment:
       GITHUB_TOKEN: $GITHUB_TOKEN
-      REPO_OWNER: mpppk
     working_dir: /go/src/github.com/mpppk/goreleng-test
     command: make build -f Makefile
+  bindata:
+    <<: *build
+    command: make bindata -f Makefile
+  lint:
+    <<: *build
+    command: make lint -f Makefile
+  test:
+    <<: *build
+    command: make test -f Makefile
   build-docker:
     <<: *build
     command: make build-docker -f Makefile
+  crossbuild:
+    <<: *build
+    command: make crossbuild -f Makefile
+  bump-and-commit:
+    <<: *build
+    command: make bump-and-commit -f Makefile
   release:
     <<: *build
     command: make release -f Makefile
