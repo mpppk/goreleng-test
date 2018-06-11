@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.1.4](https://github.com/mpppk/goreleng-test/compare/0.1.2...v0.1.4) (2018-06-11)
+
+* codecov test [#6](https://github.com/mpppk/goreleng-test/pull/6) ([mpppk](https://github.com/mpppk))
+
 ## [v0.1.3](https://github.com/mpppk/goreleng-test/compare/0.1.2...v0.1.3) (2018-06-10)
 
 
