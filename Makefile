@@ -1,7 +1,7 @@
 REPO_OWNER = mpppk
 REPO_NAME = goreleng-test
 BUILD_PATH = .
-VERSION_PATH = .
+VERSION_PATH = cmd/
 SHELL = /bin/bash
 
 ifdef update
@@ -29,7 +29,7 @@ test: deps
 	go test ./...
 
 coverage: deps
-	go test -race -coverprofile=coverage.txt -covermode=atomic ./...
+	go test -race -coverprofile=coverage.txt -covermode=atomic ./etc
 
 codecov: deps coverage
 	bash <(curl -s https://codecov.io/bash)
