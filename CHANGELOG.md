@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.1.5](https://github.com/mpppk/goreleng-test/compare/0.1.2...v0.1.5) (2018-06-11)
+
+* Add codecov setting to circleci [#7](https://github.com/mpppk/goreleng-test/pull/7) ([mpppk](https://github.com/mpppk))
+* codecov test [#6](https://github.com/mpppk/goreleng-test/pull/6) ([mpppk](https://github.com/mpppk))
+
 ## [v0.1.4](https://github.com/mpppk/goreleng-test/compare/0.1.2...v0.1.4) (2018-06-11)
 
 * codecov test [#6](https://github.com/mpppk/goreleng-test/pull/6) ([mpppk](https://github.com/mpppk))
